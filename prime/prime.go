@@ -2,7 +2,6 @@ package prime
 
 import "math"
 
-
 func GetPrimeNumbers(n int) []int {
 	var results []int
 	for i := 0; len(results) < n; i++ {
