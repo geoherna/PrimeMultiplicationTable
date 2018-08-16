@@ -1,7 +1,7 @@
 package main
 
 import (
-	"UniteUsChallenge/prime"
+	"PrimeMultiplicationTable/prime"
 	"fmt"
 )
 
