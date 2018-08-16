@@ -14,7 +14,7 @@ The `main` function initializes an instance of a `struct` named `PrimeTable`, wh
 
 `func (t *PrimeTable) GenerateRows(max int)`: Generates the content for table rows
 
-##Testing / Benchmarks
+## Testing / Benchmarks
 
 In order to run unit tests to ensure proper prime number checks + benchmarking, you may use: `go test -bench . ./...`
 
