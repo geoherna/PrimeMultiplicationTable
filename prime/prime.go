@@ -15,7 +15,7 @@ func GetPrimeNumbers(n int) []int {
 func IsPrime(val int) bool {
 	sqrRoot := int(math.Floor(math.Sqrt(float64(val))))
 	for i := 2; i <= sqrRoot; i++ {
-		if val % i == 0 {
+		if val%i == 0 {
 			return false
 		}
 	}

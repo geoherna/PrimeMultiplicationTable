@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
 	"UniteUsChallenge/prime"
+	"fmt"
 )
 
 type PrimeTable struct {
-	tableRows []string
+	tableRows   []string
 	tableHeader string
 }
 
@@ -18,7 +18,7 @@ func main() {
 
 func (t *PrimeTable) Print() {
 	fmt.Println(t.tableHeader)
-	for _, i := range t.tableRows{
+	for _, i := range t.tableRows {
 		fmt.Println(i)
 	}
 }
