@@ -13,8 +13,9 @@ func TestIsPrime(t *testing.T){
 }
 
 func TestGetPrimeNumbers(t *testing.T) {
-	expected := 4
+	expected := 10
 	actual := len(GetPrimeNumbers(10))
+
 	if actual != expected {
 		t.Error("Test failed")
 	}
